@@ -1,3 +1,4 @@
+# Lab Report 1
 Cd no argument:
 ```
 @alif1383 ➜ /workspaces/lecture1 (main) $ pwd
