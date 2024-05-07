@@ -72,7 +72,7 @@ I will reserach the command `find`. I found this website, and this is the source
 
 4 options:
 
-1. `-type`
+#1 `-type`
 
 Specify a file type to serach for, can write characters like f for regular files or d for directories.
 
@@ -114,7 +114,7 @@ $ find ./911report -type f
 ```
 This command is finding all files in the `./technical/911report` path. This is useful because it lets the user see all files that exist in a specific directory and all of its subdirectories and gives a relative path to each file.
 
-2. `-mtime`
+#2 `-mtime`
 
 Takes in a variable n which represents number of days since file was last modified and uses it to reutnr files based on modification time.
 ```
@@ -165,7 +165,7 @@ This command allows us to find things in the `./technical/911report` directory t
 
 
 
-3. `-empty`
+#3 `-empty`
 
 Finds all empty files and directories.
 ```
@@ -182,7 +182,7 @@ For this example I made a new empty directory called `test` and left it empty to
 
 
 
-4. `-maxdepth` 
+#4 `-maxdepth` 
 
 Restricts serach to a maximum directory depth.
 
