@@ -57,7 +57,7 @@ else
 fi
 ```
 
-Now, it's clear what the bug is. The issue is that even when the compiler's exit code isn't zero in the if statement, the script doesn't go to the else statement and seems to always print `Compiled!` regardless of whether the code actually compiled or not.
+Now, it's clear what the bug is. The issue is that even when the compiler's exit code isn't zero in the if statement, the script doesn't go to the else statement and seems to always print `Compiled!` regardless of whether the code actually compiled or not. The bug is in the if statement, specifically, the check `$? == 0` is always true even if the compiler's exit code was not equal to zero.
 
 ----
 
